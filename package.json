@@ -1,0 +1,7 @@
+{
+  "name": "js-config-client",
+  "version": "0.0.1",
+  "author": "Francesco Furiani",
+  "homepage": "https://github.com/furio/js-config-client",
+  "engines" : { "node" : ">0.12" }
+}
