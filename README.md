@@ -6,6 +6,6 @@ The client wraps the rest call necessary to btain the data from the server. It'l
 ##Usage
 ```
 var ConfigLib = require('js-config-client')
-var ConfigClient = new client({'server':'http://127.0.0.1:3000', 'app':'es-indexer'});
+var ConfigClient = new ConfigLib({'server':'http://127.0.0.1:3000', 'app':'es-indexer'});
 ConfigClient.getEnviroment('dev').then((x)=>{console.log(x);}).catch((err)=>console.log(err);});
 ```
