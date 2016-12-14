@@ -1,7 +1,16 @@
 {
   "name": "js-config-client",
-  "version": "0.0.1",
-  "author": "Francesco Furiani",
+  "title": "js-config-server",
+  "description": "A client library for js-config-server written in JavaScript.",
   "homepage": "https://github.com/furio/js-config-client",
-  "engines" : { "node" : ">0.12" }
+  "version": "0.0.1",
+  "license": "MIT",
+  "author":  {
+    "name": "Francesco Furiani",
+    "url": "https://github.com/furio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furio/js-config-client.git"
+  }
 }

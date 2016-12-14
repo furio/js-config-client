@@ -1,9 +1,9 @@
 # js-config-client
-A client for [**js-config-server**](https://github.com/furio/js-config-server)
+A simple client for [**js-config-server**](https://github.com/furio/js-config-server)
 
-The client wraps the rest call necessary to btain the data from the server. It'll evolve depending on the server features.
+The client wraps the rest call necessary to obtain the data from the server. It'll evolve depending on the server features.
 
-##Usage
+##Usage example
 ```
 var ConfigLib = require('js-config-client')
 var ConfigClient = new ConfigLib({'server':'http://127.0.0.1:3000', 'app':'es-indexer'});
